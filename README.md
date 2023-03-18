@@ -2,7 +2,7 @@
 
 [![MELPA](https://melpa.org/packages/elcord-badge.svg)](https://melpa.org/#/elcord)
 
-![](images/elcord-preview.png)
+![Preview image](https://cdn.discordapp.com/attachments/1079154290444210216/1086694510106521650/image.png)
 
 ## Discord Rich Presence for Emacs
 
@@ -14,10 +14,8 @@ This package will connect with a local Discord client to update your status via 
 
 ### Installing from MELPA
 
-elcord is available from [MELPA](https://melpa.org/)
-
-To install:
-`M-x package-install RET elcord RET`
+This fork only changes an icon, and it's not on MELPA yet. So, you'll have to install it manually.
+Or if you use [doom-emacs](https://github.com/doomemacs/doomemacs) you can follow [this](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org#installing-packages-from-external-sources).
 
 ### Installation from Source
 

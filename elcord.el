@@ -35,10 +35,10 @@
   :prefix "elcord-"
   :group 'external)
 
-(defcustom elcord-client-id '"388338871475240965"
+(defcustom elcord-client-id '"1086668680735240192"
   "ID of elcord client (Application ID).
 See <https://discordapp.com/developers/applications/me>."
-  :type '(choice (const :tag "'Native' Application ID" "388338871475240965")
+  :type '(choice (const :tag "'Native' Application ID" "1086668680735240192")
                  (string :tag "Use the specified ID")
                  (function :tag "Call the function with no args to get the ID."))
   :group 'elcord)
@@ -215,7 +215,7 @@ Swap this with your own function if you want a custom buffer-details message."
                  (const :tag "Emacs (Material)" "emacs_material_icon")
                  (const :tag "Emacs (Legacy)" "emacs_legacy_icon")
                  (const :tag "Spacemacs" "spacemacs_icon")
-                 (const :tag "Doom" "doom_icon"))
+                 (const :tag "Doom" "doomabject"))
   :group 'elcord)
 
 (defcustom elcord-boring-buffers-regexp-list '("^ "
@@ -492,7 +492,7 @@ otherwise if it is a function, call it with `mode' and return that value."
   (cond
    ((progn elcord-editor-icon) elcord-editor-icon)
    ((boundp 'spacemacs-version) "spacemacs_icon")
-   ((boundp 'doom-version) "doom_icon")
+   ((boundp 'doom-version) "doomabject")
    (t "emacs_icon")))
 
 (defun elcord--mode-icon ()
