@@ -4,7 +4,7 @@
 
 ![Preview image](https://cdn.discordapp.com/attachments/1079154290444210216/1086694510106521650/image.png)
 
-## Discord Rich Presence for Emacs
+## Discord Rich Presence for DOOM Emacs
 
 Show off your emacs-savy ways to all your Discord friends and strangers.
 
@@ -14,7 +14,7 @@ This package will connect with a local Discord client to update your status via 
 
 ### Installing from MELPA
 
-This fork only changes an icon, and it's not on MELPA yet. So, you'll have to install it manually.
+This fork only changes an icon or two, and it's not on MELPA yet. So, you'll have to install it manually.
 Or if you use [doom-emacs](https://github.com/doomemacs/doomemacs) you can follow [this](https://github.com/doomemacs/doomemacs/blob/master/docs/getting_started.org#installing-packages-from-external-sources).
 
 ### Installation from Source
